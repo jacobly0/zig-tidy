@@ -1,0 +1,16 @@
+.{
+    .name = "tidy",
+    .version = "5.8.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    },
+    .dependencies = .{
+        .tidy = .{
+            .hash = "1220672efb5c639ed18c65c76bd2aecc30f9ff9e5e78af6c0be17b12da565b2c6090",
+            .url = "git+https://github.com/htacg/tidy-html5#5.8.0",
+        },
+    },
+}
